@@ -5,18 +5,24 @@ Program w języku Python, który napisaliśmy, jest prostą symulacją ruchu sat
 
 Do jej realizacji użyliśmy biblioteki Pygame, która służy do tworzenia grafik 2D i obsługi interfejsów.
 
+
 ## ⚙️ Wymagania
 
 - Python w wersji 3.7 lub nowszej
 - Biblioteka **Pygame**
 
+
 ## ▶️ Uruchomienie
 Aby uruchomić program, wykonaj w terminalu poniższe polecenie (w katalogu z plikiem)
 ```bash
-    python orbit_simulation.py
-```    
+    python main.py
+```
+
+
 ## 🔎 Podgląd GUI
-![Okno interfejsu](C:\Users\Bartek\Desktop\Studia\WFI\GUI.png)
+![Okno interfejsu](Images/MainMenu.png)
+
+
 
 ## 🎮 Sterowanie i elementy interfejsu
 
