@@ -5,8 +5,18 @@ Program w języku Python, który napisaliśmy, jest prostą symulacją ruchu sat
 
 Do jej realizacji użyliśmy biblioteki Pygame, która służy do tworzenia grafik 2D i obsługi interfejsów.
 
+## ⚙️ Wymagania
+
+- Python w wersji 3.7 lub nowszej
+- Biblioteka **Pygame**
+
+## ▶️ Uruchomienie
+Aby uruchomić program, wykonaj w terminalu poniższe polecenie (w katalogu z plikiem)
+```bash
+    python orbit_simulation.py
+```    
 ## 🔎 Podgląd GUI
-![Okno interfejsu](C:\Users\Bartek\Desktop\Studia\WFI\GUI.jpg)
+![Okno interfejsu](C:\Users\Bartek\Desktop\Studia\WFI\GUI.png)
 
 ## 🎮 Sterowanie i elementy interfejsu
 
@@ -18,13 +28,10 @@ Do jej realizacji użyliśmy biblioteki Pygame, która służy do tworzenia graf
 | **Stop/Resume**      | Zatrzymuje lub wznawia animację              |
 | **Simulation Speed +** | Zwiększa prędkość przebiegu czasu (dt i FPS) |
 | **Simulation Speed -** | Zmniejsza prędkość przebiegu czasu (dt i FPS)|
-| **Velocity +**       | Zwiększa prędkość początkową satelity         |
+| **Vx +/-**       | Zwiększa/zmniejsza prędkość poziomą satelity         |
+| **Vy +/-**       | Zwiększa/zmniejsza prędkość pionową satelity         |
+| **H +/-**       | Zwiększa/zmniejsza odległość satelity od powierzchnii Ziemi        |
 | **Scroll myszy**     | Zmienia skalę widoku (zoom in/zoom out)      |
-| **Aktualna prędkość (wyświetlana)** | Pokazuje bieżącą wartość prędkości satelity w m/s na górze ekranu |
-
-## ⚙️ Wymagania
-
-- Python w wersji 3.7 lub nowszej
-- Biblioteka **Pygame**
+| **Aktualna prędkość (wyświetlana)** | Pokazuje aktualną wartość prędkości satelity w m/s na górze ekranu |
 
 
