@@ -24,8 +24,8 @@ GRAY = (200, 200, 200)
 
 # Constants
 G = 6.67430e-11  # gravitational constant (m^3 kg^-1 s^-2)
-M = 5.976e24  # mass of the planet (Earth) in kg
-R_PLANET = 6371000  # radius of planet in meters
+M = 5.97219e24  # mass of the planet (Earth) in kg
+R_PLANET = 6378137  # radius of planet in meters
 SCALE = 30 / R_PLANET  # scale: meters to pixels (so planet fits nicely)
 r = 400000 + R_PLANET
 
